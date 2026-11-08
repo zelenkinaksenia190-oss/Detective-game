@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('menophon.jpg'); /* Укажите путь к вашему изображению */
+    background-size: cover; /* Масштабирование изображения на весь экран */
+    background-position: center; /* Центрирование изображения */
+    margin: 0;
+    height: 100vh; /* Высота на весь экран */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    text-align: center;
+}
+    h1 {
+    font-size: 3.5em; 
+    margin-bottom: 70px;
+    color: #000000;
+    position: absolute; /* Позиционирование кнопки */
+    top: 100px; /* Отступ сверху */
+    left: 550px; /* Отступ слева */
+}
+    h0 {
+    font-size: 4.5em; 
+    margin-bottom: 70px;
+    color: #000000;
+    position: absolute; /* Позиционирование кнопки */
+    top: 50px; /* Отступ сверху */
+    left: 320px; /* Отступ слева */
+}
+
+.menu-button {
+    display: block;
+    background-color: #232323;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.2em;   
+    margin: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    width: 200px; /* Задаем фиксированную ширину для кнопок */
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+
+.menu-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+/*@author : DIMA with best wishes
+*/

@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('phgl.jpg'); /* путь к фоновому изображению */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 4 колонки */
+    gap: 50px;
+    justify-items: center;
+}
+
+
+.page-button {
+    text-decoration: none;  
+    padding: 15px 30px;
+    font-size: 60px;
+    background-color: #520303;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.page-button:hover {
+    background-color: #ebebeb;
+    color: rgb(0, 0, 0);
+}
+
+.reset-button {
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    padding: 30px 30px;
+    font-size: 18px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.button-back{
+    position: absolute;
+    bottom: 50px;
+    right: 1250px;
+    padding: 30px 30px;
+    font-size: 19px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-back:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}

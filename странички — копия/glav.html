@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Главное меню</title>
+<link rel="stylesheet" href="glav.css"> <!-- Подключение CSS файла -->
+
+</head>
+<body data-page-id="galleryPage">
+<div class="button-container">      
+    <a href="A.html" class="page-button">A</a>
+    <a href="B.html" class="page-button">B</a>
+    <a href="C.html" class="page-button">C</a>
+    <a href="D.html" class="page-button">D</a>
+    <a href="E.html" class="page-button">E</a>
+    <a href="F.html" class="page-button">F</a>
+    <a href="G.html" class="page-button">G</a>
+    </div>
+    <form action="menu.html">
+    <button class="button-back" onclick="menu.html">Назад</button>
+    </form>
+    <!-- Кнопка для сброса сохранений в правом нижнем углу -->
+    <button class="reset-button" onclick="resetGallery()">Сбросить галерею</button>
+    <script>
+        // Функция для сброса сохранений в localStorage
+        function resetGallery() {
+            localStorage.clear(); // Очищаем все сохранённые данные в localStorage
+            alert('Сохранения галереи сброшены!');
+        }
+    </script>
+</body>
+</html>

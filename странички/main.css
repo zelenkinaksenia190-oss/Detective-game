@@ -1,0 +1,38 @@
+body {
+font-family: Arial, sans-serif;
+background-image: url('титульник.jpg'); /* Укажите путь к вашему изображению */
+background-size: cover; /* Масштабирование изображения на весь экран */
+background-position: center; /* Центрирование изображения */
+margin: 0;
+  
+height: 100vh; /* Высота на весь экран */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+a {
+  text-decoration: none; /* Убираем подчёркивание */
+ }
+ 
+.start-button {
+  
+  position: absolute; /* Позиционирование кнопки */
+    top: 550px; /* Отступ сверху */
+    left: 370px; /* Отступ слева */
+
+  padding: 15px 30px; /*размер нашей кнопочки*/
+  font-size: 1.2em; 
+  color: rgb(0, 0, 0);/*цвет шрифта*/
+  background-color: #b2bcc8;/*цвет кнопки до нажатия*/
+  border: none;
+  border-radius: 100px; /* от этого зависит форма кнопки :3*/
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  color: rgb(255, 255, 255);
+  background-color: #282c31;/*цвет кнопки после нажатия*/
+}
+
